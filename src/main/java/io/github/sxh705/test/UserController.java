@@ -12,6 +12,11 @@ import java.time.LocalDateTime;
 @RestController
 @RequestMapping("/test")
 public class UserController {
+    @Autowired
+    UserMapper userMapper;
+    @Autowired
+    UserService userService;
+
     @RequestMapping("/time")
     Object time() {
         var now = LocalDateTime.now();
@@ -20,12 +25,6 @@ public class UserController {
         log.info("thread: {}", thread);
         return now;
     }
-
-    @Autowired
-    UserMapper userMapper;
-
-    @Autowired
-    UserService userService;
 
     @RequestMapping("exec/{sql}")
     Object exec(@PathVariable("sql") String sql) {

@@ -1,7 +1,6 @@
 package io.github.sxh705.test;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import io.github.sxh705.test.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
