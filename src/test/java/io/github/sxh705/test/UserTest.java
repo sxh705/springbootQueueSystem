@@ -1,5 +1,8 @@
 package io.github.sxh705.test;
 
+import io.github.sxh705.user.User;
+import io.github.sxh705.user.UserMapper;
+import io.github.sxh705.user.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

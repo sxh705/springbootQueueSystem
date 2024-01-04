@@ -1,4 +1,4 @@
-package io.github.sxh705.test;
+package io.github.sxh705.user;
 
 
 import com.baomidou.mybatisplus.annotation.TableId;

@@ -1,4 +1,4 @@
-package io.github.sxh705.test;
+package io.github.sxh705.user;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
