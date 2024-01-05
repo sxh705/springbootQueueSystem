@@ -1,6 +1,7 @@
-package io.github.sxh705.test;
+package io.github.sxh705.controller;
 
-import io.github.sxh705.user.UserService;
+import io.github.sxh705.mapper.TestMapper;
+import io.github.sxh705.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

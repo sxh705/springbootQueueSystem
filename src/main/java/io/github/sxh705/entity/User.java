@@ -1,6 +1,7 @@
-package io.github.sxh705.user;
+package io.github.sxh705.entity;
 
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -10,9 +11,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName("t_user")
+@TableName(value = "t_user")
 public class User {
-    @TableId
+    @TableId(value = "id", type = IdType.AUTO)
     Integer id;
 
     String name;
@@ -20,4 +21,5 @@ public class User {
     String password;
 
     String telephone;
+
 }
